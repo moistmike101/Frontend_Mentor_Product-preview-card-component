@@ -83,7 +83,7 @@
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: auto;
       grid-template-areas:
-        "box1 box2";
+        "one two";
       max-width: 600px;
       height: 450px;
       margin: 0px auto 0px auto;
@@ -91,8 +91,8 @@
 
     }
 
-    .box1 {
-      grid-area: "box1";
+    .box-one {
+      grid-area: "box-one";
       background-image: url(https://i.ibb.co/dLspbwX/image-product-desktop.jpg);
       background-size: contain;
       background-repeat: no-repeat;
@@ -100,8 +100,8 @@
       border-bottom-left-radius: 10px;
     }
 
-    .box2 {
-      grid-area: "box2";
+    .box-two {
+      grid-area: "box-two";
       background-color: hsl(0, 0%, 100%);
       text-align: left;
       padding: 30px;
@@ -138,15 +138,15 @@
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 1fr;
       grid-template-areas:
-        "box1"
-        "box2";
+        "one"
+        "two";
       
       height: 680px;
       width: 400px;
       
     }
-    .box1 {
-      grid-area: "box1";
+    .box-one {
+      grid-area: "one";
       background-image: url(https://i.ibb.co/HDcFY6X/image-product-mobile.jpg);
       background-size: 400px;
       background-repeat: no-repeat;
@@ -157,8 +157,8 @@
       width: 400px;
       height: 280px;
     }
-    .box2 {
-      grid-area: "box2";
+    .box-two {
+      grid-area: "two";
       background-color: hsl(0, 0%, 100%);
       text-align: left;
       padding: 30px;
@@ -207,9 +207,9 @@
 
 <body>
   <div class="container">
-    <div class="box1"></div>
+    <div class="box-one"></div>
 
-    <div class="box2">
+    <div class="box-two">
       <h2>Perfume</h2>
       <h1>Gabrielle Essence Eau De Parfum</h1>
       <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of
